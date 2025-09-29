@@ -115,10 +115,14 @@ header nav a:focus-visible {
 
   /* Step 10: Write the selector/rule property to style the nav element */
   
+  header { 
+    display: grid; 
+    background: #ddd;
+  }
   header nav {
-    padding: 35px 0;
-    display:flex;
-    justify-content: flex-end;
+    text-align: right;
+    display: block;
+    padding: 35px 0;     
   }
   
   /* Step 11: Write the selector/rule property to update the .container class */
